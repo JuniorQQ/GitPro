@@ -1,0 +1,42 @@
+html * {
+    box-sizing: border-box;
+}
+
+body {
+    margin: auto 0;
+}
+
+.menu {
+    margin: 45px;
+    display: flex;
+       
+}
+
+
+
+h4 {
+    font-weight: bold;
+    font-size: 40px;
+    letter-spacing: 5px;
+}
+
+.col-2.navi{
+    display: flex;
+    justify-content:flex-end;
+}
+
+.col-2 img {
+    width: 50px;
+    
+}
+  h1 {
+    font-style: italic;
+}
+ h2{
+    color:light-gray;
+}
+ 
+ h6{
+ display:flex;
+ justify-content:flex-end;
+ font-style: italic;} 
