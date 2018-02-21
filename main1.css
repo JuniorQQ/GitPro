@@ -5,16 +5,28 @@ html * {
 
 body {
     margin: auto 0;
+    background-color: #EFEFEF;
 }
 
 .menu {
     margin: 70px;
+    padding-top: 70px;
 }
 
 h4 {
     font-weight: bold;
     font-size: 40px;
     letter-spacing: 5px;
+}
+
+.texthead {
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+
+.container {
+    background-color: white;
+    box-shadow: 10px 10px 10px 5px rgba(0,0,0,0.2);
 }
 
 .col-2 img {
@@ -36,7 +48,7 @@ font-style: italic;
 
 h2{
     font-size: 55px;
-text-align: center;
+    text-align: center;
 }
 
 h3{
@@ -51,6 +63,50 @@ margin-top: 20px;
     width: 100%;
 }
 
+.col-6, .col-12, .col-2 {
+    padding: 0;
+}
+
 .picleft img {
-    width: 100%
+    width: 100%;
+}
+
+.picleft .text, .picright .text {
+    text-align: center;
+
+}
+
+.ice {
+    color: #909090;
+    margin-top: 35px;
+    font-size: 35px;
+    font-style: italic;
+}
+
+.nord {
+    margin-top: -10px;
+    font-size: 40px;
+    line-height: 45px;
+}
+
+.picright{
+    margin-bottom: 70px;
+}
+
+.picright img {
+    width: 100%;
+    height: 100%;
+}
+
+.ice2 {
+    color: #909090;
+    margin-top: 35px;
+    font-size: 35px;
+    font-style: italic;
+}
+
+.str {
+    margin-top: -10px;
+    font-size: 40px;
+    line-height: 45px;
 }
