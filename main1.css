@@ -67,13 +67,17 @@ margin-top: 20px;
     padding: 0;
 }
 
+.picleft {
+    margin-top: -55px;
+}
+
 .picleft img {
     width: 100%;
 }
 
 .picleft .text, .picright .text {
     text-align: center;
-
+    background: white;
 }
 
 .ice {
